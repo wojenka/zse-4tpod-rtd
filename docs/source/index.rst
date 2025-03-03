@@ -55,9 +55,9 @@ term (up to a line of text)
 next term
    Description.
 
-.. image:: path/filename.png
+.. image:: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ1akahKS3cZYr3kWEEAoeuBgf26-7H1xUpA&s
   :width: 400
-  :alt: Alternative text
+  :alt: pibble
 
 +------------------------+------------+----------+----------+
 | Header row, column 1   | Header 2   | Header 3 | Header 4 |

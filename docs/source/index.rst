@@ -1,27 +1,26 @@
 =================
-nagłówek #1
+Header #1
 =================
 ##########
-nagłówek #2
+Header #2
 ##########
-***********
-nagłówek 3
+Header #3
 ***********
 ----------
-nagłówek 4
+Header #4
 ----------
 
 """"""""""""
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 """"""""""""
-.. note:: This is a note admonition.
+.. note:: Very important Note that doesn't matter
    This is the second line of the first paragraph.
 
    - The note contains all indented body elements
      following.
    - It includes this bullet list.
 .. TIP::
-   Beware killer rabbits!
+   Don't use Windows. Get your Linux operating system today!
 
 .. code-block::
    :caption: A cool example
@@ -34,7 +33,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 This is a paragraph that contains `a link`_.
 
-.. _a link: https://domain.invalid/
+.. _a link: https://www.debian.org/index.pl.html
 
 .. _my-reference-label:
 
@@ -56,11 +55,15 @@ term (up to a line of text)
 next term
    Description.
 
+.. image:: path/filename.png
+  :width: 400
+  :alt: Alternative text
+
 +------------------------+------------+----------+----------+
 | Header row, column 1   | Header 2   | Header 3 | Header 4 |
 | (header rows optional) |            |          |          |
 +========================+============+==========+==========+
 | body row 1, column 1   | column 2   | column 3 | column 4 |
 +------------------------+------------+----------+----------+
-| body row 2             | ...        | ...      |          |
+| body row 2             | beep       | beep     | boop     |
 +------------------------+------------+----------+----------+
